@@ -6,6 +6,29 @@ li {
 }
 .sidebar {
   flex: 3;
-  height: 100vh;
+  height: calc(100vh - 50px);
   overflow-y: scroll;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.onlineFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.showMoreBtn {
+  margin: 15px 0px;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.contactIsolator {
+  height: 2px;
+  margin-bottom: 15px;
 }

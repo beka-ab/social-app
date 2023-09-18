@@ -15,7 +15,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sideProperties">
-        <ul>
+        <ul className="featureList">
           <li>
             <RssFeed />
             <span> Feed</span>
@@ -53,9 +53,157 @@ export default function Sidebar() {
             <span>Courses</span>
           </li>
         </ul>
-        <button>Show More</button>
+        <button className="showMoreBtn">Show More</button>
       </div>
-      <ul></ul>
+      <hr className="contactIsolator" />
+      <div className="contacts">
+        <ul>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+          <li className="onlineFriends">
+            <img
+              className="onlineFriendImg"
+              src="./assets/person/2.jpeg"
+              alt=""
+            />
+            <span className="onlineFriendName">Jane doe</span>
+          </li>
+        </ul>
+        <li className="onlineFriends">
+          <img
+            className="onlineFriendImg"
+            src="./assets/person/2.jpeg"
+            alt=""
+          />
+          <span className="onlineFriendName">Jane doe</span>
+        </li>
+        <li className="onlineFriends">
+          <img
+            className="onlineFriendImg"
+            src="./assets/person/2.jpeg"
+            alt=""
+          />
+          <span className="onlineFriendName">Jane doe</span>
+        </li>
+        <li className="onlineFriends">
+          <img
+            className="onlineFriendImg"
+            src="./assets/person/2.jpeg"
+            alt=""
+          />
+          <span className="onlineFriendName">Jane doe</span>
+        </li>
+      </div>
     </div>
   );
 }

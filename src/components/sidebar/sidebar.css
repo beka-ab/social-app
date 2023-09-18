@@ -1,0 +1,11 @@
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+.sidebar {
+  flex: 3;
+  height: 100vh;
+  overflow-y: scroll;
+}

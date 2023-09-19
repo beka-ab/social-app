@@ -4,7 +4,7 @@ import Share from "../share/share";
 import Post from "../post/post";
 export default function Feed() {
   return (
-    <div>
+    <div className="feedComp">
       <Share />
       <Post />
     </div>

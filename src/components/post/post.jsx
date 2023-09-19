@@ -19,6 +19,16 @@ export default function Post() {
       <div className="postMediaPlace">
         <img className="postMedia" src="./assets/posts/1.jpeg" alt="" />
       </div>
+      <div className="postLikeCounter">
+        <div className="postReactions">
+          <img className="reaction" src="./assets/like.png" alt="" />
+          <img className="reaction" src="./assets/heart.png" alt="" />
+          <span> 2 people like it</span>
+        </div>
+        <div className="comments">
+          <span>Comments</span>
+        </div>
+      </div>
     </div>
   );
 }

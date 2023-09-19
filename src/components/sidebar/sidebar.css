@@ -32,3 +32,8 @@ li {
   height: 2px;
   margin-bottom: 15px;
 }
+.friends {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}

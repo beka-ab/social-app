@@ -57,8 +57,8 @@ export default function Sidebar() {
       </div>
       <hr className="contactIsolator" />
       <div className="contacts">
-        <ul>
-          <li className="onlineFriends">
+        <ul className="friends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -66,7 +66,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -74,7 +74,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -82,7 +82,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -90,7 +90,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -98,7 +98,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -106,7 +106,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -114,7 +114,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -122,7 +122,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -130,7 +130,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -138,7 +138,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -146,7 +146,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -154,7 +154,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -162,7 +162,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -170,7 +170,7 @@ export default function Sidebar() {
             />
             <span className="onlineFriendName">Jane doe</span>
           </li>
-          <li className="onlineFriends">
+          <li className="contactList">
             <img
               className="onlineFriendImg"
               src="./assets/person/2.jpeg"
@@ -179,30 +179,6 @@ export default function Sidebar() {
             <span className="onlineFriendName">Jane doe</span>
           </li>
         </ul>
-        <li className="onlineFriends">
-          <img
-            className="onlineFriendImg"
-            src="./assets/person/2.jpeg"
-            alt=""
-          />
-          <span className="onlineFriendName">Jane doe</span>
-        </li>
-        <li className="onlineFriends">
-          <img
-            className="onlineFriendImg"
-            src="./assets/person/2.jpeg"
-            alt=""
-          />
-          <span className="onlineFriendName">Jane doe</span>
-        </li>
-        <li className="onlineFriends">
-          <img
-            className="onlineFriendImg"
-            src="./assets/person/2.jpeg"
-            alt=""
-          />
-          <span className="onlineFriendName">Jane doe</span>
-        </li>
       </div>
     </div>
   );

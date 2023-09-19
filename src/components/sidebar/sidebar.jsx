@@ -1,5 +1,7 @@
 import React from "react";
 import "./sidebar.css";
+import Friends from "../friends/friends";
+import { Users } from "../../data";
 import {
   RssFeed,
   Chat,
@@ -58,126 +60,9 @@ export default function Sidebar() {
       <hr className="contactIsolator" />
       <div className="contacts">
         <ul className="friends">
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
-          <li className="contactList">
-            <img
-              className="onlineFriendImg"
-              src="./assets/person/2.jpeg"
-              alt=""
-            />
-            <span className="onlineFriendName">Jane doe</span>
-          </li>
+          {Users.map((u) => (
+            <Friends key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>

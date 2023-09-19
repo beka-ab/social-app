@@ -10,6 +10,8 @@ li {
   overflow-y: scroll;
   padding-left: 15px;
   padding-top: 15px;
+  position: sticky;
+  top: 50px;
 }
 
 .featureList {

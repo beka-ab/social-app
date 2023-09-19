@@ -1,5 +1,7 @@
 import React from "react";
+import Online from "../online/online";
 import "./rightbar.css";
+import { Users } from "../../data";
 export default function Rightbar() {
   return (
     <div className="rightbar">
@@ -15,51 +17,9 @@ export default function Rightbar() {
       <div className="onlineFriends">
         <h4 className="onlineHeadline">Online Friends</h4>
         <ul className="onlineLists">
-          <li className="onlineList">
-            <img
-              className="onlineListImg"
-              src="./assets/person/3.jpeg"
-              alt=""
-            />
-            <hr className="onlineDoc" />
-            <span className="onlineListUser">Safak kocaoglu</span>
-          </li>
-          <li className="onlineList">
-            <img
-              className="onlineListImg"
-              src="./assets/person/3.jpeg"
-              alt=""
-            />
-            <hr className="onlineDoc" />
-            <span className="onlineListUser">Safak kocaoglu</span>
-          </li>
-          <li className="onlineList">
-            <img
-              className="onlineListImg"
-              src="./assets/person/3.jpeg"
-              alt=""
-            />
-            <hr className="onlineDoc" />
-            <span className="onlineListUser">Safak kocaoglu</span>
-          </li>
-          <li className="onlineList">
-            <img
-              className="onlineListImg"
-              src="./assets/person/3.jpeg"
-              alt=""
-            />
-            <hr className="onlineDoc" />
-            <span className="onlineListUser">Safak kocaoglu</span>
-          </li>
-          <li className="onlineList">
-            <img
-              className="onlineListImg"
-              src="./assets/person/3.jpeg"
-              alt=""
-            />
-            <hr className="onlineDoc" />
-            <span className="onlineListUser">Safak kocaoglu</span>
-          </li>
+          {Users.map((u) => (
+            <Online key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>

@@ -17,7 +17,7 @@ li {
 .featureList {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
+  row-gap: 15px;
 }
 .onlineFriendImg {
   width: 32px;
@@ -25,7 +25,7 @@ li {
   border-radius: 50%;
 }
 .showMoreBtn {
-  margin: 15px 0px;
+  margin: 30px 0px;
   border: none;
   padding: 8px 20px;
   cursor: pointer;
